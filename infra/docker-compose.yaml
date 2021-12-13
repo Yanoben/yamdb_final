@@ -8,11 +8,11 @@ services:
     env_file:
       - ./.env
   web:
+    image: yaboben/api_yamdb:latest
     build: ../api_yamdb/
     restart: always
     volumes:
-      - static_value:/app/static/
-      - media_value:/app/media/
+      - static_value:/reviews/static/
     depends_on:
       - db
     env_file:

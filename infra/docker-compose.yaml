@@ -9,6 +9,7 @@ services:
       - ./.env
   web:
     image: yaboben/api_yamdb:latest
+    build: ./yamdb_final/api_yamdb/
     restart: always
     volumes:
       - static_value:/reviews/static/

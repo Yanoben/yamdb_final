@@ -47,7 +47,7 @@ python3 manage.py runserver
 
 `GET /reviews/`
 
-    curl -i -H 'Accept: application/json' http://127.0.0.1:8000/reviews/
+    curl -i -H 'Accept: application/json' http://51.250.29.6/reviews/
 
 ### Response
 
@@ -91,7 +91,7 @@ python3 manage.py runserver
 
 `GET /reviews/<int:review_id>/`
 
-    curl -i -H 'Accept: application/json' http://127.0.0.1:8000/reviews/<int:reviews_id>/
+    curl -i -H 'Accept: application/json' http://51.250.29.6/reviews/<int:reviews_id>/
 
 ### Response
 
@@ -117,7 +117,7 @@ python3 manage.py runserver
 
 `GET /reviews/<int:review_id>/comments`
 
-    curl -i -H 'Accept: application/json' http://127.0.0.1:8000/reviews/<int:review_id>/comments
+    curl -i -H 'Accept: application/json' http://51.250.29.6/reviews/<int:review_id>/comments
 
 ### Response
 
